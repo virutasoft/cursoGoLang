@@ -24,27 +24,27 @@ func main() {
 		fmt.Println("no has ingresado la opcion correcta")
 	}
 } //end main
-func suma(a int, b int) int {
+func suma(a float64, b float64) float64 {
 	return a + b
 } // end func suma
 
-func resta(a int, b int) int {
+func resta(a float64, b float64) float64 {
 	return a - b
 } //end func resta
-func multiplicar(a int, b int) int {
+func multiplicar(a float64, b float64) float64 {
 	return a * b
 } // end multiplicar
-func division(a int, b int) int {
+func division(a float64, b float64) float64 {
 	return a / b
 }
-func getNumbers() (int, int) {
+func getNumbers() (float64, float64) {
 	var (
-		a int
-		b int
+		a float64
+		b float64
 	)
 	fmt.Print("Ingresa la cifra 1: ")
-	fmt.Scanf("%d", &a)
+	fmt.Scanf("%f", &a)
 	fmt.Print("Ingresa la cifra 2: ")
-	fmt.Scanf("%d", &b)
+	fmt.Scanf("%f", &b)
 	return a, b
 } //end getNumbers
