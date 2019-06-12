@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	var option int
-	fmt.Print("---Hola, bienvenido a la calculadora de sumas y restas---- \n")
+	fmt.Print("---Hola, bienvenido a la calculadora básica en GoLang---- \n")
 
 	fmt.Print("Si deseas sumar, escribe: 1, 2 si deseas restar, 3 si deseas multiplicar o 4 si deseas dividir \n")
 	fmt.Scanf("%d", &option)
